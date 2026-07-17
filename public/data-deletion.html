@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Data Deletion - Aletheia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #050608;
+            color: #e2e8f0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+    </style>
+</head>
+<body class="antialiased leading-relaxed max-w-3xl mx-auto px-6 py-12">
+    <a href="/" class="text-teal-400 hover:text-teal-300 font-medium mb-8 inline-block">&larr; Back to Aletheia</a>
+    
+    <h1 class="text-4xl font-bold text-white mb-2">Account & Data Deletion Request</h1>
+    <p class="text-slate-400 mb-10">Last updated: July 17, 2026</p>
+
+    <div class="space-y-8 text-lg">
+        <div class="bg-teal-500/10 border border-teal-500/20 rounded-xl p-6 mb-8">
+            <h2 class="text-xl font-bold text-teal-400 mb-2">TL;DR: You are entirely in control</h2>
+            <p class="text-slate-300 text-base">Because Aletheia is a local-first application, <strong>no account is created on our servers, and no data is sent to us.</strong> Therefore, there is no central account for us to delete. You can permanently delete all your data instantly directly from your device.</p>
+        </div>
+
+        <section>
+            <h2 class="text-2xl font-semibold text-white mb-4">How to permanently delete your data</h2>
+            <p class="mb-4">To permanently erase all financial records, settings, and biometric configurations associated with Aletheia, follow these steps:</p>
+            
+            <ol class="list-decimal pl-6 space-y-4 text-slate-300">
+                <li>
+                    <strong>From inside the app:</strong> Open Aletheia, go to <em>Settings</em>, scroll to the bottom, and select <em>"Erase All Data"</em>.
+                </li>
+                <li>
+                    <strong>From your Android Device:</strong> 
+                    <ul class="list-disc pl-6 mt-2 space-y-1">
+                        <li>Go to your phone's <em>Settings</em></li>
+                        <li>Navigate to <em>Apps &gt; Aletheia</em></li>
+                        <li>Select <em>Storage &amp; cache</em></li>
+                        <li>Tap <em>"Clear Storage" (or "Clear Data")</em></li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>By Uninstalling:</strong> Simply uninstalling the Aletheia application from your device will automatically and permanently purge the encrypted local SQLite database.
+                </li>
+            </ol>
+        </section>
+
+        <section class="pt-8 border-t border-slate-800">
+            <p class="text-slate-400 text-sm">Because data is not synced to a cloud server, deleting the app or clearing its storage is irreversible. We cannot recover your data for you once it is deleted.</p>
+        </section>
+    </div>
+</body>
+</html>

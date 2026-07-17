@@ -77,9 +77,13 @@ const Footer = () => {
           </div>
         </motion.div>
 
-        <div className="mt-32 pt-8 border-t border-charcoal-800 flex flex-col md:flex-row items-center justify-between gap-4 text-slate-500 text-sm">
+        <div className="mt-32 pt-8 border-t border-charcoal-800 flex flex-col md:flex-row items-center justify-between gap-6 text-slate-500 text-sm">
           <div className="flex items-center gap-2 font-bold tracking-widest text-slate-400">
             <img src="/logo.png" alt="Logo" className="w-5 h-5 opacity-50 grayscale" /> ALETHEIA
+          </div>
+          <div className="flex items-center gap-6">
+            <a href="/privacy.html" className="hover:text-brandCyan transition-colors">Privacy Policy</a>
+            <a href="/data-deletion.html" className="hover:text-brandCyan transition-colors">Data Deletion</a>
           </div>
           <div>© {new Date().getFullYear()} Aletheia. Local-First Finance.</div>
         </div>
