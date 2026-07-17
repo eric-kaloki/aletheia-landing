@@ -25,6 +25,10 @@ const Navbar = () => {
         <div className="flex items-center gap-3">
           <img src="/screen/logo.png" alt="Aletheia Logo" className="w-8 h-8 rounded-full shadow-cyan-glow" />
           <span className="font-bold text-xl tracking-wide text-white">ALETHEIA</span>
+          <span className="hidden sm:inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-500 text-[10px] font-bold tracking-widest uppercase ml-2 shadow-[0_0_10px_rgba(245,158,11,0.15)]">
+            <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse"></span>
+            Coming Soon
+          </span>
         </div>
         
         <div className="hidden md:flex items-center gap-8">
