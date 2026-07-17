@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aletheia-app.com/sitemap.xml
