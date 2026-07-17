@@ -97,6 +97,8 @@ const Hero = () => {
                   src="/screen/Screenshot_20260717-123203.jpg" 
                   alt="Aletheia Dashboard" 
                   className="w-full h-auto"
+                  fetchPriority="high"
+                  loading="eager"
                 />
                 <div className="absolute inset-0 bg-gradient-to-tr from-white/5 to-transparent pointer-events-none"></div>
               </div>
