@@ -68,7 +68,10 @@ const Hero = () => {
               </p>
 
               <div className="flex flex-col sm:flex-row items-center gap-6">
-                <button className="w-full sm:w-auto bg-white text-black px-10 py-5 font-bold text-sm tracking-wide hover:bg-slate-200 transition-colors duration-500 rounded-full">
+                <button 
+                  onClick={() => document.getElementById('waitlist')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="w-full sm:w-auto bg-white text-black px-10 py-5 font-bold text-sm tracking-wide hover:bg-slate-200 transition-colors duration-500 rounded-full"
+                >
                   Reserve Spot
                 </button>
                 <button 

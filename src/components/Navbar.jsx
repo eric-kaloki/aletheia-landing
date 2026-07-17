@@ -33,9 +33,12 @@ const Navbar = () => {
         </div>
         
         <div>
-          <button className="bg-brandCyan/10 text-brandCyan border border-brandCyan/20 px-5 py-2 rounded-full text-sm font-semibold hover:bg-brandCyan hover:text-charcoal-900 transition-all shadow-cyan-glow">
-            Get App
-          </button>
+            <button 
+              onClick={() => document.getElementById('waitlist')?.scrollIntoView({ behavior: 'smooth' })}
+              className="bg-white text-charcoal-900 px-6 py-2 rounded-full font-bold text-sm hover:bg-slate-200 transition-colors"
+            >
+              Reserve Spot
+            </button>
         </div>
       </div>
     </motion.nav>
