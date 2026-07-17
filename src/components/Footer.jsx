@@ -64,7 +64,7 @@ const Footer = () => {
               <button 
                 type="submit"
                 disabled={state.submitting}
-                className="bg-white text-black px-8 py-4 rounded-full font-bold tracking-wide hover:bg-slate-200 transition-colors flex items-center justify-center gap-2 disabled:opacity-70 disabled:cursor-not-allowed"
+                className="bg-white text-black px-8 py-4 rounded-full font-bold tracking-wide hover:bg-slate-200 transition-colors flex items-center justify-center gap-2 disabled:opacity-70 disabled:cursor-not-allowed whitespace-nowrap shrink-0"
               >
                 {state.submitting ? 'Joining...' : (
                   <>Reserve Spot <ArrowRight size={18} /></>

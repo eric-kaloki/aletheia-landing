@@ -27,12 +27,14 @@ const Hero = () => {
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
-              className="flex items-center gap-4 mb-12"
+              className="mb-10"
             >
-              <div className="h-px w-8 bg-brandCyan/50"></div>
-              <span className="text-brandCyan text-sm font-medium tracking-wide">
-                Private Beta Access
-              </span>
+              <div className="inline-flex items-center gap-3 px-5 py-2 rounded-full bg-brandCyan/10 border border-brandCyan/20 shadow-[0_0_20px_rgba(0,191,165,0.15)]">
+                <span className="w-2 h-2 rounded-full bg-brandCyan animate-pulse"></span>
+                <span className="text-brandCyan text-xs md:text-sm font-bold tracking-widest uppercase">
+                  Coming Soon to iOS & Android
+                </span>
+              </div>
             </motion.div>
 
             <div className="overflow-hidden mb-6">
