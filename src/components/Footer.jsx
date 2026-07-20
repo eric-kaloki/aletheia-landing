@@ -14,7 +14,7 @@ const Footer = () => {
       
       {/* Centered glowing logo background */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 opacity-10 pointer-events-none">
-        <img src="/logo.png" alt="Logo background" className="w-full h-full object-contain filter blur-md" />
+        <img src="/logo.webp" alt="Logo background" width="512" height="512" loading="lazy" className="w-full h-full object-contain filter blur-md" />
       </div>
 
       <div className="container mx-auto px-6 max-w-4xl relative z-10 text-center">
@@ -80,7 +80,7 @@ const Footer = () => {
 
         <div className="mt-32 pt-8 border-t border-charcoal-800 flex flex-col md:flex-row items-center justify-between gap-6 text-slate-500 text-sm">
           <div className="flex items-center gap-2 font-bold tracking-widest text-slate-400">
-            <img src="/logo.png" alt="Logo" className="w-5 h-5 opacity-50 grayscale" /> ALETHEIA
+            <img src="/logo.webp" alt="Logo" width="20" height="20" loading="lazy" className="w-5 h-5 opacity-50 grayscale" /> ALETHEIA
           </div>
           <div className="flex items-center gap-6">
             <Link to="/privacy" className="hover:text-brandCyan transition-colors">Privacy Policy</Link>

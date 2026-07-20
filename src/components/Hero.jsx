@@ -94,8 +94,10 @@ const Hero = () => {
             >
               <div className="relative rounded-[2.5rem] border border-white/10 bg-charcoal-900 shadow-2xl overflow-hidden transform-gpu rotate-[-2deg] hover:rotate-0 transition-transform duration-700 ease-out">
                 <img 
-                  src="/screen/Screenshot_20260717-123203.jpg" 
+                  src="/screen/Screenshot_20260717-123203.webp" 
                   alt="Aletheia Dashboard" 
+                  width="720"
+                  height="1611"
                   className="w-full h-auto"
                   fetchPriority="high"
                   loading="eager"

@@ -37,7 +37,7 @@ const Analytics = () => {
               transition={{ duration: 0.8, type: "spring" }}
               className="absolute right-0 top-10 w-[70%] rounded-2xl border-4 border-charcoal-800 shadow-2xl shadow-cyan-glow z-10 overflow-hidden"
             >
-              <img src="/screen/Screenshot_20260717-123532.jpg" alt="Behavioral Insights" className="w-full h-auto" />
+              <img src="/screen/Screenshot_20260717-123532.webp" alt="Behavioral Insights" width="720" height="1611" loading="lazy" className="w-full h-auto" />
             </motion.div>
 
             <motion.div 
@@ -47,7 +47,7 @@ const Analytics = () => {
               transition={{ duration: 0.8, type: "spring", delay: 0.2 }}
               className="absolute left-0 bottom-10 w-[60%] rounded-2xl border-4 border-charcoal-700 shadow-2xl overflow-hidden opacity-60 hover:opacity-100 transition-opacity duration-300 z-0"
             >
-              <img src="/screen/Screenshot_20260717-123537.jpg" alt="Weekly Trends" className="w-full h-auto filter grayscale hover:grayscale-0 transition-all duration-300" />
+              <img src="/screen/Screenshot_20260717-123537.webp" alt="Weekly Trends" width="720" height="1611" loading="lazy" className="w-full h-auto filter grayscale hover:grayscale-0 transition-all duration-300" />
             </motion.div>
           </div>
           

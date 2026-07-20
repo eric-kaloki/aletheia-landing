@@ -18,8 +18,11 @@ const KilobyteEnclave = () => {
             >
               <div className="absolute -inset-4 bg-brandRed/20 blur-2xl rounded-full z-0 pointer-events-none" />
               <img 
-                src="/screen/Screenshot_20260717-123557.jpg" 
+                src="/screen/Screenshot_20260717-123557.webp" 
                 alt="Security Settings" 
+                width="720"
+                height="1611"
+                loading="lazy"
                 className="relative z-10 w-full h-auto rounded-[2rem] border-4 border-charcoal-800 shadow-2xl shadow-red-glow"
               />
             </motion.div>
