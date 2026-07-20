@@ -86,7 +86,12 @@ const Footer = () => {
             <Link to="/privacy" className="hover:text-brandCyan transition-colors">Privacy Policy</Link>
             <Link to="/data-deletion" className="hover:text-brandCyan transition-colors">Data Deletion</Link>
           </div>
-          <div>© {new Date().getFullYear()} Aletheia. Local-First Finance.</div>
+          <div className="flex flex-col md:items-end gap-1">
+            <div>© {new Date().getFullYear()} Aletheia. Local-First Finance.</div>
+            <a href="https://nextgenspark.co.ke" target="_blank" rel="noopener noreferrer" className="text-xs text-slate-500 hover:text-brandCyan transition-colors">
+              A product of Nextgen Spark
+            </a>
+          </div>
         </div>
       </div>
     </footer>
