@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
 import { useForm, ValidationError } from '@formspree/react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const [state, handleSubmit] = useForm('mojgekdv');
@@ -82,8 +83,8 @@ const Footer = () => {
             <img src="/logo.png" alt="Logo" className="w-5 h-5 opacity-50 grayscale" /> ALETHEIA
           </div>
           <div className="flex items-center gap-6">
-            <a href="/privacy.html" className="hover:text-brandCyan transition-colors">Privacy Policy</a>
-            <a href="/data-deletion.html" className="hover:text-brandCyan transition-colors">Data Deletion</a>
+            <Link to="/privacy" className="hover:text-brandCyan transition-colors">Privacy Policy</Link>
+            <Link to="/data-deletion" className="hover:text-brandCyan transition-colors">Data Deletion</Link>
           </div>
           <div>© {new Date().getFullYear()} Aletheia. Local-First Finance.</div>
         </div>

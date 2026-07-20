@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import SovereignDifference from './components/SovereignDifference';
-import FourPillars from './components/FourPillars';
-import Analytics from './components/Analytics';
-import KilobyteEnclave from './components/KilobyteEnclave';
-import Principles from './components/Principles';
 import Footer from './components/Footer';
+import Home from './pages/Home';
+import Privacy from './pages/Privacy';
+import DataDeletion from './pages/DataDeletion';
 
 function App() {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
@@ -34,12 +32,11 @@ function App() {
 
       <div className="relative z-40">
         <Navbar />
-        <Hero />
-        <SovereignDifference />
-        <FourPillars />
-        <Analytics />
-        <KilobyteEnclave />
-        <Principles />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/data-deletion" element={<DataDeletion />} />
+        </Routes>
         <Footer />
       </div>
     </div>

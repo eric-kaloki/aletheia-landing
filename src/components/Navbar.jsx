@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -22,18 +23,18 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto px-6 max-w-7xl flex items-center justify-between">
-        <div className="flex items-center gap-3">
+        <Link to="/" className="flex items-center gap-3">
           <img src="/logo.png" alt="Aletheia Logo" className="w-8 h-8 rounded-full shadow-cyan-glow" />
           <span className="font-bold text-xl tracking-wide text-white">ALETHEIA</span>
           <span className="hidden sm:inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-500 text-[10px] font-bold tracking-widest uppercase ml-2 shadow-[0_0_10px_rgba(245,158,11,0.15)]">
             <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse"></span>
             Coming Soon
           </span>
-        </div>
+        </Link>
         
         <div className="hidden md:flex items-center gap-8">
-          <a href="#features" className="text-slate-400 hover:text-brandCyan transition-colors text-sm font-medium">Features</a>
-          <a href="#security" className="text-slate-400 hover:text-brandCyan transition-colors text-sm font-medium">Security</a>
+          <a href="/#features" className="text-slate-400 hover:text-brandCyan transition-colors text-sm font-medium">Features</a>
+          <a href="/#security" className="text-slate-400 hover:text-brandCyan transition-colors text-sm font-medium">Security</a>
         </div>
         
         <div>
